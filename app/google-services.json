@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "911521018263",
+    "firebase_url": "https://trading-platform-7fa0e.firebaseio.com",
+    "project_id": "trading-platform-7fa0e",
+    "storage_bucket": "trading-platform-7fa0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911521018263:android:1b0cba8331a3adc7",
+        "android_client_info": {
+          "package_name": "com.trading_platform.rahulfakir.tradingplatform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911521018263-2io8iiehod6vl9l1jopl550fah9umcsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHDBuFeaRNvT9fmfNKkW69JBumeCTfQrk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
