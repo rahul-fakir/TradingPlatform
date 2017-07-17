@@ -26,6 +26,7 @@ public class AccountSetupActivity extends AppCompatActivity {
 
     //  Internal Variables
     private String firstName, lastName, emailAddress, password;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
