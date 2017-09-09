@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
-    tools:context="com.trading_platform.rahulfakir.tradingplatform.LoginActivity">
+    tools:context="com.trading_platform.rahulfakir.tradingplatform.LoginActivity.LoginActivity">
 
     <EditText
         android:id="@+id/edtEmailAddress"
@@ -27,12 +27,12 @@
         style="@style/editText"
         android:layout_width="281dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="209dp"
+        android:layout_marginBottom="154dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:inputType="textPassword"
         android:text="password"
-        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintBottom_toTopOf="@+id/pgLoggingIn"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
@@ -78,4 +78,20 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:textColor="@color/colorPrimaryText"/>
+
+    <ProgressBar
+        android:id="@+id/pgLoggingIn"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:indeterminateOnly="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 </android.support.constraint.ConstraintLayout>

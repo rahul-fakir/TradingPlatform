@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Trading Platform</string>
+    <string name="title_activity_main"></string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- Summary Dashboard -->
+    <string name="current_balance">Current Balance</string>
+
 </resources>

@@ -1,4 +1,4 @@
-package com.trading_platform.rahulfakir.tradingplatform;
+package com.trading_platform.rahulfakir.tradingplatform.DataValidation;
 
 import android.text.TextUtils;
 
@@ -8,7 +8,7 @@ import android.text.TextUtils;
 
 public class DataValidation {
 
-    DataValidation() {}
+    public DataValidation() {}
 
     //  Email address validation
     public ValidationResult validateEmailAddress(String emailAddress) {
@@ -32,7 +32,7 @@ public class DataValidation {
 
     //  Password validation
     public ValidationResult validateName(String name, String nameType) {
-        // TODO: Add password validation
+        // TODO: Add name validation
         return !(name.length() < 3) ?
                 new ValidationResult(0, nameType + " passed validation") :
                 new ValidationResult(1, "Invalid " + nameType);
